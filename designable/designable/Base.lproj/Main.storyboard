@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jiJ-uo-fpL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picture1" translatesAutoresizingMaskIntoConstraints="NO" id="jmQ-ow-jtK" customClass="MGOImageView">
+                                <rect key="frame" x="110" y="39" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="HYb-7s-pNd"/>
+                                    <constraint firstAttribute="width" constant="100" id="MiU-7Z-KbN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.66274509800000003" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="defineValue">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="爱因斯坦" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SDc-Yh-Zzi" customClass="MGOTextField">
+                                <rect key="frame" x="70" y="166" width="223" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="t1t-wi-syr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.01176470588" green="0.71372549019999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="相对论" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HeL-7k-F7B" customClass="MGOTextField">
+                                <rect key="frame" x="70" y="211" width="223" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bcs-cN-hjW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.01176470588" green="0.71372549019999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="跟美女聊天感觉时间过的更快" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aks-wp-6ep" customClass="MGOTextField">
+                                <rect key="frame" x="70" y="258" width="223" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="wrY-Lp-hYg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.01176470588" green="0.71372549019999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-DQ-evE" customClass="MGOButton">
+                                <rect key="frame" x="20" y="318" width="273" height="38"/>
+                                <color key="backgroundColor" red="0.01176470588" green="0.71372549019999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="dAQ-0j-438"/>
+                                </constraints>
+                                <state key="normal" title="注册">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.01176470588" green="0.71372549019999998" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爱好：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bu-pa-r3t">
+                                <rect key="frame" x="16" y="215" width="46" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bIT-cI-Vlb"/>
+                                    <constraint firstAttribute="width" constant="46" id="lT9-U2-JUZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="签名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZm-aa-kSw">
+                                <rect key="frame" x="16" y="267" width="46" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="1zQ-bV-ViM"/>
+                                    <constraint firstAttribute="height" constant="21" id="aK8-65-Q56"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9x-F2-mKx">
+                                <rect key="frame" x="16" y="170" width="46" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Aun-P9-Qqn"/>
+                                    <constraint firstAttribute="width" constant="46" id="zbs-We-Rlm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mVO-DQ-evE" firstAttribute="leading" secondItem="jiJ-uo-fpL" secondAttribute="leading" constant="20" id="8Zi-cH-Esv"/>
+                            <constraint firstItem="jmQ-ow-jtK" firstAttribute="centerX" secondItem="jiJ-uo-fpL" secondAttribute="centerX" id="8eX-oa-jxY"/>
+                            <constraint firstItem="SDc-Yh-Zzi" firstAttribute="top" secondItem="jmQ-ow-jtK" secondAttribute="bottom" constant="27" id="Cf2-nL-Zjr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aks-wp-6ep" secondAttribute="trailing" constant="11" id="JTB-EP-xlY"/>
+                            <constraint firstItem="aks-wp-6ep" firstAttribute="leading" secondItem="FZm-aa-kSw" secondAttribute="trailing" constant="8" id="LIC-v8-ytN"/>
+                            <constraint firstItem="8bu-pa-r3t" firstAttribute="centerY" secondItem="HeL-7k-F7B" secondAttribute="centerY" id="Sb4-Rc-hrD"/>
+                            <constraint firstItem="jmQ-ow-jtK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="Sju-3F-ivA"/>
+                            <constraint firstItem="SDc-Yh-Zzi" firstAttribute="leading" secondItem="r9x-F2-mKx" secondAttribute="trailing" constant="8" id="VeG-0u-9cm"/>
+                            <constraint firstItem="FZm-aa-kSw" firstAttribute="centerY" secondItem="aks-wp-6ep" secondAttribute="centerY" id="W6F-mq-NH6"/>
+                            <constraint firstItem="mVO-DQ-evE" firstAttribute="top" secondItem="aks-wp-6ep" secondAttribute="bottom" constant="21" id="Yr1-Az-Jdl"/>
+                            <constraint firstItem="HeL-7k-F7B" firstAttribute="leading" secondItem="8bu-pa-r3t" secondAttribute="trailing" constant="8" id="fVZ-1t-Xuu"/>
+                            <constraint firstItem="r9x-F2-mKx" firstAttribute="leading" secondItem="jiJ-uo-fpL" secondAttribute="leadingMargin" id="gZk-Xm-yOv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SDc-Yh-Zzi" secondAttribute="trailing" constant="11" id="hrG-Yx-Sh7"/>
+                            <constraint firstAttribute="trailing" secondItem="mVO-DQ-evE" secondAttribute="trailing" constant="27" id="i4q-TF-euY"/>
+                            <constraint firstItem="aks-wp-6ep" firstAttribute="top" secondItem="HeL-7k-F7B" secondAttribute="bottom" constant="17" id="iOq-Nu-H8G"/>
+                            <constraint firstItem="r9x-F2-mKx" firstAttribute="centerY" secondItem="SDc-Yh-Zzi" secondAttribute="centerY" id="izN-ou-Gja"/>
+                            <constraint firstItem="8bu-pa-r3t" firstAttribute="leading" secondItem="jiJ-uo-fpL" secondAttribute="leadingMargin" id="k4v-vh-U7J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HeL-7k-F7B" secondAttribute="trailing" constant="11" id="rz6-V8-ovj"/>
+                            <constraint firstItem="HeL-7k-F7B" firstAttribute="top" secondItem="SDc-Yh-Zzi" secondAttribute="bottom" constant="15" id="sOj-ts-GgC"/>
+                            <constraint firstItem="FZm-aa-kSw" firstAttribute="leading" secondItem="jiJ-uo-fpL" secondAttribute="leadingMargin" id="yo3-qu-1Z9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="avatarIv" destination="jmQ-ow-jtK" id="tTs-l7-uOs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="179" y="408"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="picture1" width="250" height="252"/>
+    </resources>
+</document>
