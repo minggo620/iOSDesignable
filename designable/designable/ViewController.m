@@ -20,11 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CGFloat cornerRadius = self.avatarIv.cornerRadius;
-    NSLog(@"avatarIv.cornerRadius:%f",cornerRadius);
-    [self.avatarIv setCornerRadius:30];
-    cornerRadius = self.avatarIv.cornerRadius;
-    NSLog(@"avatarIv.cornerRadius:%f",cornerRadius);
+    NSLog(@"avatarIv.cornerRadius:%f",self.avatarIv.cornerRadius);
     NSLog(@"avatarIv.defineValue:%f",self.avatarIv.defineValue);
 }
 

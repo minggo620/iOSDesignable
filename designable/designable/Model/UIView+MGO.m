@@ -12,7 +12,6 @@
 @implementation UIView (MGO)
 
 
-
 -(void)setCornerRadius:(CGFloat)cornerRadius{
     
     self.layer.masksToBounds = YES;
@@ -32,6 +31,7 @@
     objc_setAssociatedObject(self, @selector(defineValue), @(defineValue), OBJC_ASSOCIATION_ASSIGN);
 }
 
+
 -(CGFloat)cornerRadius{
     
     return self.layer.cornerRadius;
@@ -46,5 +46,22 @@
 -(CGFloat)defineValue{
     return [objc_getAssociatedObject(self, @selector(defineValue)) floatValue];
 }
+
+
+//-(void)setLinesWidth:(CGFloat)linesWidth{
+//    objc_setAssociatedObject(self, @selector(linesWidth), @(linesWidth), OBJC_ASSOCIATION_ASSIGN);
+//}
+//-(CGFloat)linesWidth{
+//    return [objc_getAssociatedObject(self, @selector(linesWidth)) floatValue];
+//}
+
+//-(void)drawRect:(CGRect)rect{
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    CGRect myframe = self.bounds;
+//    CGContextSetLineWidth(context,self.linesWidth);
+//    CGRectInset(myframe, 1, 1);
+//    [self.borderColor set];
+//    UIRectFrame(myframe);
+//}
 
 @end

@@ -15,5 +15,5 @@ IB_DESIGNABLE
 @property(nonatomic,assign) IBInspectable CGFloat borderWidth;
 @property(nonatomic,assign) IBInspectable UIColor *borderColor;
 @property(nonatomic,assign) IBInspectable CGFloat defineValue;
-
+//@property(nonatomic,assign) IBInspectable CGFloat linesWidth;
 @end
