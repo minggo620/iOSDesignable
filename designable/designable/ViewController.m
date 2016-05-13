@@ -12,6 +12,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet MGOImageView *avatarIv;
+@property (weak, nonatomic) IBOutlet UILabel *statusLb;
 
 @end
 
@@ -22,6 +23,8 @@
     
     NSLog(@"avatarIv.cornerRadius:%f",self.avatarIv.cornerRadius);
     NSLog(@"avatarIv.defineValue:%f",self.avatarIv.defineValue);
+    
+    self.statusLb.text = @"运行现实状态";
 }
 
 - (void)didReceiveMemoryWarning {
